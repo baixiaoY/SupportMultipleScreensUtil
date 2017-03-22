@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="460px"
+        android:layout_height="200px"
+        android:textSize="50px"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="BUTTON" />
+
+    <LinearLayout
+        android:layout_below="@id/button"
+        android:layout_marginTop="100px"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="800px">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="40px"
+            android:layout_width="620px"
+            android:layout_height="300px"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="【乐天大规模退出中国市场 供应商赶赴北京总部催款】据媒体报道，此前有67家乐天在华商场因消防整顿而被勒令停业。而目前集团在华拥有99家大型商场，这意味着近九成不再营业。记者来到酒仙桥乐天玛特北京总部，发现人流量稀少，在总部办公室内，还有不少供应商前来讨要货款。"/>
+
+        <ImageView
+            android:background="@android:color/white"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="140px"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+</RelativeLayout>
